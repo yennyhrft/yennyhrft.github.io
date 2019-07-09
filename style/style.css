@@ -1,0 +1,165 @@
+/* Start font */
+@import url('https://font.googleapis.com/css?family=roboto');
+/* End Font */
+
+/* Start Body */
+body {
+    color: #24292e;
+    font-family: Robto, Georgia, 'Times New Roman', Times, serif;
+    font-size : 16px;
+    line-height: 1,5em;
+    margin: 0;
+    padding: 0;
+}
+/* End body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: blue
+}
+
+.bg-peach {
+    background-color: rgb(248, 234, 234)
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin:10px auto;
+    overflow: auto;
+    width: 90%
+}
+
+.container-full{
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%
+}
+/* End Container */
+
+/* Start Logo*/
+.logo{
+    text-align: center;
+}
+
+/* End Logo*/
+
+/* Star Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: rgba(10, 31, 128, 0.521);
+    text-decoration: none;
+}
+a:hover,
+a:active{
+    color: #000000;
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/*  Start Menu Primer */
+.menu-primer ul {
+    background-color: #333333
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba(0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 1px;
+}
+
+.menu-primer a {
+    color: #ffffff
+    font-size: 13px 
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a: hover{
+    background-color: #f7f7f7;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-primer .active{
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/*  End Menu Primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{ 
+    font-size: 28px;
+}
+h2{ 
+    font-size: 24px;
+}
+h3{ 
+    font-size: 18px;
+}
+h4{ 
+    font-size: 16px;
+}
+h5{ 
+    font-size: 14px;
+}
+h6{ 
+    font-size: 13Spx;
+}
+
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: chocolate;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+/* End Main*/
+
+/* Start Box */
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    
+}
+/* End Box */
