@@ -59,7 +59,7 @@ a:active{
 
 /*  Start Menu Primer */
 .menu-primer ul {
-    background-color: #333333
+    background-color: #333333;
     border-radius: 4px;
     box-shadow:
         0 3px 5px -1px rgba(0,0,.2),
@@ -74,15 +74,15 @@ a:active{
 }
 
 .menu-primer a {
-    color: #ffffff
-    font-size: 13px 
+    color: #ffffff;
+    font-size: 13px ;
     display: inline-block;
     letter-spacing: 1px;
     padding: 10px 20px;
     text-transform: uppercase;
 }
 
-.menu-primer a: hover{
+.menu-primer a:hover{
     background-color: #f7f7f7;
     color: #000000;
     text-decoration: none;
@@ -160,6 +160,6 @@ h6{
     text-transform: uppercase;
 }
 .box-heading h4 {
-    
+
 }
 /* End Box */
